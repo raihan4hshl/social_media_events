@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Testimony Timeline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Social Media Testimony Timeline</h1>
+        <p>Documenting events and testimonies from social media.</p>
+    </header>
+
+    <section id="timeline">
+        <h2>Timeline of Events</h2>
+
+        <!-- Timeline entries will be dynamically added here -->
+    </section>
+
+    <section id="submit-testimony">
+        <h2>Submit Your Testimony</h2>
+        <form id="testimonyForm">
+            <label for="testimony">Your Testimony:</label>
+            <textarea id="testimony" name="testimony" required></textarea>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="source">Source:</label>
+            <input type="text" id="source" name="source" placeholder="Twitter, Facebook, etc." required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Social Media Testimony Timeline. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Add JavaScript at the end of the body -->
+    <script src="script.js"></script>
+</body>
+</html>
